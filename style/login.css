@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* border: blanchedalmond solid 1px; */
+    min-width: 1300px;
+    height: 690px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contain {
+    /* border: red solid 1px; */
+    overflow: hidden;
+}
+
+.contain.satu{
+    flex: 3;
+    background-image: url(../photo/BG2.png);
+    background-position: right;
+    border-left: #066d44 solid 10px;
+}
+
+.contain.satu img{
+    height: 100%;
+    float: right;
+}
+
+.contain.satu .ket{
+    margin: 130px;
+    /* border: rgb(98, 0, 255) solid 1px; */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+.contain.satu .ket button{
+    width: 300px;
+    height: 35px;
+    margin-top: 30px;
+    border: 0;
+    background-color: #066d44;
+    color: white;
+    box-shadow: 0 0 3px white;
+}
+
+.contain.satu .ket button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.contain.dua{
+    flex: 1;
+    /* background-color: #066d44; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contain.dua p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.contain.dua .punyaAkun{
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.punyaAkun button{
+    width: 80%;
+    margin: 5px auto;
+    height: 30px;
+    border: 0;
+    border: rgb(196, 196, 196) solid 0.5px;
+    box-shadow: 0px 0px 3px rgb(110, 110, 110);
+}
+
+.punyaAkun button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.tabelInput{
+    /* border: blueviolet solid 1px; */
+    width: 80%;
+    margin: 5px auto;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabelInput button{
+    width: 100%;
+    height: 30px;
+    border: rgb(172, 172, 172) solid 0.5px;
+    margin-top: 10px;
+    background-color: #066d44;
+    color: white;
+    
+}
+
+.tabelInput button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    border: rgb(196, 196, 196) solid 0.5px;
+    height: 30px;
+    
+}
+
+/* STYLE JUDUL */
+.judul{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0 30px 0;
+}

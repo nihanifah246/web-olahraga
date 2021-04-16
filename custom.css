@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  min-width: 1280px;
+}
+
+.nav {
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  overflow: auto;
+  background-image: url(../photo/BG2.png);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subnav1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 30px;
+  float: left;
+}
+
+.subnav2 {
+  padding-top: 30px;
+  position: absolute;
+  padding-left: 30%;
+}
+
+.subnav2 a {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+}
+
+.subnav2 :hover {
+  background-color: #087d4e;
+  border-radius: 7px;
+  border: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.subnav3 {
+  padding-top: 20px;
+  padding-right: 20px;
+  float: right;
+  position: relative;
+}
+
+.subnav3-1 {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.subnav3-1:hover {
+  color: #087d4e;
+  cursor: pointer;
+}
+
+.subnav3-2 {
+  width: 100px;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  color: #066d44;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.subnav3-2:hover {
+  cursor: pointer;
+  background-color: #066d44;
+  color: white;
+}
+
+.judul {
+  margin-top: 14%;
+  margin-left: 10%;
+  font-size: 50px;
+  color: #087d4e;
+  letter-spacing: 1px;
+  text-align: left;
+  float: left;
+  clear: both;
+  font-family: Arial Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.tombolMulai {
+  clear: both;
+  padding-top: 20px;
+  padding-right: 60%;
+}
+
+.tombolMulai button {
+  font-size: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: #087d4e;
+}
+
+.tombolMulaiSekarang:hover {
+  font-size: 19px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.tengah {
+  padding: 20px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.langkah {
+  font-size: 30px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.langkahLangkah {
+  border: none;
+  overflow: auto;
+  border-radius: 7px;
+  box-shadow: 0px 0px 7px rgb(202, 199, 199);
+}
+
+.lang {
+  width: 23.5%;
+  height: 460px;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+.keterangan {
+  float: left;
+  padding-left: 10%;
+}
+
+.ket1 {
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.ket2 {
+  padding-top: 16px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kls {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.judulKelas {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+
+.keteranganKelas {
+  margin-top: 0px;
+  padding-left: 30px;
+}
+
+.ketKelas {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.container {
+  width: 32%;
+  float: left;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-left: 1%;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.container:hover {
+  /* box-shadow: 0px 0px 7px rgb(153, 153, 153); */
+}
+
+.gambarKelas {
+  float: left;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.lengkap {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 36%;
+  padding-right: 36%;
+}
+
+.footer {
+  margin-top: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #087d4e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  display: table;
+  content: "";
+  width: 85%;
+  padding-left: 200px;
+}
+
+.footer .container {
+  border: 0;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}

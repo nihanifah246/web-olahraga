@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    background-color: #066d44;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    /* border: red solid 1px; */
+}
+
+.subnav{
+    padding-left: 20px;
+    position: relative;
+    font-size: 30px;
+    float: left;
+    /* border: blue solid 1px; */
+}
+
+.subnav.satu{
+    flex: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    color: white;
+    margin: auto;
+}
+
+.subnav.dua{
+    flex: 2;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+.subnav.dua a{
+    color: white;
+    /* border: yellow solid 1px; */
+    padding: 13px 25px 13px 25px;
+    border-radius: 7px;
+}
+
+.subnav.dua a:hover{
+    background-color: white;
+    color: #066d44;
+    cursor: pointer;
+}
+
+.subnav.tiga {
+    flex: 1;
+    font-size: 16px;
+    text-align: right;
+    margin: auto;
+}
+
+.subnav.tiga a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.subnav.tiga a:hover{
+    background-color: white;
+    color: #066d44;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.subnav.tiga button{
+    border: 0;
+    color: #066d44;
+    font-size: 16px;
+    background-color: white;
+    margin: 0 20px 0 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.subnav.tiga button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/* STYLE AWAL */
+.container {
+    border: black solid 1px;
+    margin: 20px auto;
+    width: 1300px;
+    height: 400px;
+    border-radius: 7px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: row;
+    background-image: url(../photo/BG2.png);
+    bottom: 80px;
+    background-position: 100px 600px ;
+}
+
+.sub.satu{
+    /* border: #066d44 solid 1px; */
+    width: 60%;
+    margin: 20px 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 30px;
+}
+
+.contain {
+    display: flex;
+    /* border: black solid 1px; */
+    flex-direction: row;
+    width: 1300px;
+    margin: auto;
+}
+
+.subcontain {
+    border: #066d44 solid 1px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.subcontain.satu {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 1px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcontain.dua {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 1px; */
+}
+
+.baris.satu {
+    border-bottom: #066d44 solid 3px;
+    padding: 10px;
+}
+
+.baris.dua {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    /* border: black solid 3px; */
+    padding: 20px;
+}
+
+.subbaris{
+    /* border: blue solid 3px; */
+    margin: 10px auto;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subbaris img{
+    width: 250px;
+}
+
+.barisKanan{
+    /* border: red solid 1px; */
+    margin: 10px auto;
+    width: 250px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barisKanan.satu {
+    border-bottom: #066d44 solid 3px;
+    padding: 10px;
+}
+
+.webinar{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    width: 370px;
+    height: 530px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.webinar:hover{
+    box-shadow: 0px 0px 7px rgb(153, 153, 153);
+}
+
+.gambarKelas {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.keteranganKelas {
+    padding: 10px;
+}
+
+.keteranganKelas h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.keteranganKelas button{
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 40px;
+    background-color: #066d44;
+    color: white;
+    border: 0;
+}
+
+/* FOOTER */
+.footer {
+    border: white solid 1px;
+    background-color: #087D4E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.subfoot{
+    /* border: black solid 1px; */
+    margin: 50px;
+}
+
+.subfoot.satu{
+    flex: 2;
+    text-align: right;
+}
+.subfoot.dua{
+    flex: 1;
+}
+.subfoot.tiga{
+    flex: 1;
+}
+
+.subfoot a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
